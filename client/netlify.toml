@@ -3,9 +3,6 @@
   publish = "client/dist"
   command = "npm install && npm run build"
 
-[context.production.environment]
-  NODE_ENV = "production"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
